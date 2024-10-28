@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -7,7 +8,7 @@
     android:orientation="vertical"
     android:padding="20dp"
     android:layout_margin="20dp"
-    tools:context=".MainActivity">
+    tools:context=".UpdateActivity">
 
     <EditText
         android:id="@+id/name"
@@ -26,17 +27,11 @@
         android:paddingStart="10dp"
         android:textColorHint="@color/black" />
     <Button
-        android:id="@+id/btnInsert"
+        android:id="@+id/update"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Insert"
+        android:text="Update"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/black"/>
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/userRecycler"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
